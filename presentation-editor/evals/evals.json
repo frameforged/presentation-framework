@@ -1,0 +1,23 @@
+{
+  "skill_name": "presentation-editor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Bu sunumun metin içeriklerini düzenle. Başlıklar daha vurucu olsun, madde işaretleri daha profesyonel ifade edilsin. Genel yapıyı koru ama dili akıcılaştır.",
+      "expected_output": "Orijinal sunumun yapısı korunmuş, ancak başlıklar iddia niteliğinde yeniden yazılmış, madde işaretleri paralel yapıda ve fiille başlayan ifadeler olarak düzenlenmiş bir .pptx dosyası. Düzenleme raporu ile birlikte teslim edilmeli.",
+      "files": ["/sessions/nifty-happy-faraday/mnt/uploads/template-sunum-ss.pptx"]
+    },
+    {
+      "id": 2,
+      "prompt": "Sunumdaki ton tutarsızlıklarını düzelt. Bazı slaytlarda çok resmi, bazılarında günlük dil kullanılmış. Yarı-resmi bir tonda birleştir ve metinleri profesyonelleştir.",
+      "expected_output": "Tüm slaytlarda tutarlı yarı-resmi ton. Resmi kalıplar ('gerçekleştirilmektedir') ve günlük ifadeler ('şöyle bir bakalım') birlikte kullanılmadan, dengeli bir profesyonel dilde birleştirilmiş .pptx dosyası.",
+      "files": ["/sessions/nifty-happy-faraday/mnt/uploads/template-sunum-ss.pptx"]
+    },
+    {
+      "id": 3,
+      "prompt": "Bu sunumdaki metinleri gözden geçir ve iyileştir. Özellikle belirsiz başlıkları netleştir, tekrar eden ifadeleri temizle ve istatistiklere bağlam ekle.",
+      "expected_output": "Başlıklar somut iddialar içerecek şekilde yeniden yazılmış, tekrar eden ifadeler farklı kelimelerle çeşitlendirilmiş, çıplak rakamlar bağlam ile zenginleştirilmiş bir .pptx dosyası.",
+      "files": ["/sessions/nifty-happy-faraday/mnt/uploads/template-sunum-ss.pptx"]
+    }
+  ]
+}
